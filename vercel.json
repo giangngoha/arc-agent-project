@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "arc-agent-marketplace",
+  "buildCommand": "cd agent-marketplace && npm run build",
+  "outputDirectory": "agent-marketplace/.next",
+  "installCommand": "cd agent-marketplace && npm install",
+  "framework": "nextjs",
+  "regions": ["sin1", "iad1"],
+  "env": {
+    "NEXT_PUBLIC_CHAIN": "arc-testnet"
+  }
+}
